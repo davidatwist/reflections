@@ -1,0 +1,33 @@
+Reflections on FC and Diff
+
+Comparing code manually is very tedious, especially when there is a lot of code.  Both FC and Diff are a lot better than comparing manually but it seems like there should still be a much easier way.
+
+Without some sort of compare function it is almost impossible to find random bugs that are introduced as typos or just clicking poorly.
+
+Reflections on History for Efficiency
+
+In addition to having old versions to compare to the current version looking for bugs, Having a change history is very valuable when you head down the wrong development path and you need to get back to a good starting point.  It is also very useful in team development in order to revert back to an older version of one programmers work.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Manual Commit
+
+Pros:
+When to commit changes is a judgement call and commits are more likely to be useful to the programmer when they are done by the programmer at relevent times.
+The act of deciding when to commit changes automatically forces a certain ammount of organized thinking on the programmer.
+
+Cons:
+If the programmer gets too wrapped up in what they are doing and does not stop to commit it could cause problems.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because Git is designed for source code control, which generally involves many interrelated files and having a certain version of one file without the coresponding versions of it's supporting files may not allow you to have a working version of the program depending on what other files have changed.
+
+How can you use the commands git log and git diff to view the history of files? 
+Enter Git Log at the command line to get a list of committed changes and a brief description of what changed and then use Git Diff to compare any two commited versions to see exactly what changed.
+
+How might using version control make you more confident to make changes that could break something?
+Using version control gives you the ability to make changes you might not be totally sure about knowing that you can always get back to a version that you know worked.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to try using it for a project with lots of files and see how it compares with Microsoft Visual SourceSafe
