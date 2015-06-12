@@ -7,3 +7,5 @@ The staging area is used to group files in the working directory together before
 How can you use the staging area to make sure you have one commit per logical change? By only adding the files that make up the logical change to the staging area before committing.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help? Any time you need to have two versions of a project that are almost the same or if you want to experiment without changing the existing master branch.
+
+How do the diagrams help you visualize the branch structure? Diagrams make it easier to see the staring and current relations between branches and what changes have been made since branches were started.
