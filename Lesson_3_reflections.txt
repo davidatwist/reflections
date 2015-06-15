@@ -3,3 +3,11 @@ When you want to share your work with others of when you want others to add to y
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 If you hae other people contributing to your project you would probably want to see what changes were going to be pulled and make sure you agree rather than having Git automatically pull them.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork creates a copy of a repository from GitHub to GitHub that contains all of the commit history from before the fork but is independent of the parent after that. Forking does not get a copy to your local storage.
+
+Clone creates a copy of a repository and it's commit history either from GitHub to you local storage or from one place to another on your local storage. The copy is completely separate from the original.
+
+Branches are used to make parallel commit history paths through a repository that can be used to test new features while maintaining a release version of a program or for different coders to work on the same files.  Branches can be merged back together in a repository.
