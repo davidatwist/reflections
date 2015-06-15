@@ -11,3 +11,6 @@ Fork creates a copy of a repository from GitHub to GitHub that contains all of t
 Clone creates a copy of a repository and it's commit history either from GitHub to you local storage or from one place to another on your local storage. The copy is completely separate from the original.
 
 Branches are used to make parallel commit history paths through a repository that can be used to test new features while maintaining a release version of a program or for different coders to work on the same files.  Branches can be merged back together in a repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+This allows you to resolve changes and merge offline.
