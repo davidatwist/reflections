@@ -13,6 +13,8 @@ Clone creates a copy of a repository and it's commit history either from GitHub 
 Branches are used to make parallel commit history paths through a repository that can be used to test new features while maintaining a release version of a program or for different coders to work on the same files.  Branches can be merged back together in a repository.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
-This allows you to resolve changes and merge them offline without an internet connection.
+This allows you to resolve changes and merge them off line without an internet connection.
 
-How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? Colaberating without Git/GitHub would require transfering files and questions/comments back and forth manually and would be much harder than colaberting with GitHub. 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? Collaborating without Git/GitHub would require transferring files and questions/comments back and forth manually and would be much harder than collaborating with GitHub. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have? Changes should be made to a separate branch when you want to work on new features without breaking the working version of the code in master.
